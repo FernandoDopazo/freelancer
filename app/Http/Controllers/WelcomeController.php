@@ -15,7 +15,7 @@ class WelcomeController extends Controller
             'name' => 'Fernando',
             'email' => 'nando@email.com',
             'password' => 'vasco'
-        ]);*/
+        ]);/*
 
         //para atualizar
         /*$user->email_verified_at = now();
