@@ -14,14 +14,6 @@ class Index extends Component
         return view('livewire.projects.index');
     }
 
-
-
- /*
- Erro no processamento do LiveWire para a index, ta retornando em JSON / HTML.
- Fiz o teste com uma rota alterntiva (web.php) e uma view de teste (projects-test) e funcionou corretamente.
- Tratar esse erro antes de prosseguir
-  */
-
  public function getProjectsProperty()
     {
         $projects = Project::query()->inRandomOrder()->get();
