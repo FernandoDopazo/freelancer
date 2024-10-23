@@ -2,7 +2,7 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex justify-between">
         <a class="text-white font-bold items-center flex gap-2" href="/">
             <x-ui.logo class="w-10"/>
-            <span class="text-xl">FreelanceHours</span>
+            <span class="text-xl">Fernando's Project</span>
         </a>
 
         <ul class="text-[#C3C3D1] flex items-center gap-4 text-[16px]">
