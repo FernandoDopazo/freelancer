@@ -6,7 +6,7 @@
             <div>
 
                 <x-projects.status :status="$project->status" />
-                    
+
 
             </div>
             <h1 class="text-[28px] text-white leading-9">
@@ -39,9 +39,11 @@
         <div class="flex gap-[8px] items-center pb-2">
             @foreach($project->tech_stack as $tech)
 
-            {{ $tech }}
+                <x-ui.tech
+                :icon="$tech"
+                :text="$tech"
+            />
 
-               {{-- <x-ui.tech :icon="$tech->icon" :text="$tech->text"/> --}}
             @endforeach
         </div>
     </div>
