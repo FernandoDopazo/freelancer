@@ -8,6 +8,8 @@
 
         <livewire:projects.proposals :$project />
 
+        <livewire:proposals.create :$project/>
+
     </div>
 
 
